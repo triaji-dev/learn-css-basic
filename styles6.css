@@ -1,6 +1,6 @@
 * {
-    margin: 0;
-    padding: 0;
+    padding: 0px;
+    margin: 0px;
     box-sizing: border-box;
 }
 
@@ -26,14 +26,18 @@ header {
     }   
 }
 
-p {
-    color: blue;
+.box {
+    width: 300px;
+    height: 200px;
+    border:1px solid black;
+    margin: 20px;
+    overflow: hidden;
 }
 
-.highlight {
-    color: green;
+.box-1 {
+    object-fit: cover;
 }
 
-#judul {
-    color: red;
+.box-2 {
+    object-fit: contain;
 }

@@ -1,6 +1,6 @@
 * {
-    margin: 0;
-    padding: 0;
+    padding: 0px;
+    margin: 0px;
     box-sizing: border-box;
 }
 
@@ -24,16 +24,4 @@ header {
     a:hover {
     text-decoration: underline;
     }   
-}
-
-p {
-    color: blue;
-}
-
-.highlight {
-    color: green;
-}
-
-#judul {
-    color: red;
 }
