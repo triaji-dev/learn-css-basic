@@ -25,3 +25,22 @@ header {
     text-decoration: underline;
     }   
 }
+
+.container {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.item {
+    width: 100px;
+    height: 100px;
+    background-color: #4CAF50;
+    border: 1px solid #000000;
+    margin: 10px;
+    flex-grow: 1;
+    flex-shrink: 1;
+    flex-basis: 100px;
+}
+

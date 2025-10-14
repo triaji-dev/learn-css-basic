@@ -25,3 +25,32 @@ header {
     text-decoration: underline;
     }   
 }
+
+.box {
+    width: 100px;
+    height: 100px;
+    background-color: red;
+    transform: rotate(45deg) scale(1.2);
+    position: absolute;
+    left: 100px;
+    top: 200px;
+    transition: transform 0.5s ease;
+}
+
+.box2 {
+    left: 350px;
+    background-color: blue;
+}
+
+.box:hover {
+    transform: rotate(360deg) scale(1.5);
+}
+
+@keyframes spin {
+  from { transform: rotate(0deg); }
+  to { transform: rotate(360deg); }
+}
+
+.spinner {
+  animation: spin 2s linear infinite;
+}

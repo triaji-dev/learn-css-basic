@@ -26,18 +26,16 @@ header {
     }   
 }
 
-.box {
+.box-1 img {
     width: 300px;
-    height: 200px;
-    border:1px solid black;
-    margin: 20px;
-    overflow: hidden;
-}
-
-.box-1 {
+    height: 300px;
     object-fit: cover;
+    border: 1px solid #000000;
 }
 
-.box-2 {
+.box-2 img {
+    width: 300px;
+    height: 300px;
     object-fit: contain;
+    border: 1px solid #000000;
 }

@@ -25,3 +25,18 @@ header {
     text-decoration: underline;
     }   
 }
+
+.container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    background-color: #4CAF50;
+}
+
+.box {
+    width: 200px;
+    height: 200px;
+    margin: 0 auto;
+    background-color: #fab22c;
+}
